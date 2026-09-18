@@ -33,3 +33,16 @@ A página institucional já apresenta exemplos visuais das duas experiências do
 - domínio por empresa no padrão `empresa.ponto.cactustecnologia.com.br`, com suporte planejado/implementado para domínio próprio do cliente.
 
 Os exemplos são demonstrativos e acompanham o comportamento atual do repositório Cactus Ponto.
+
+
+### Privacidade e infraestrutura
+
+A apresentação do Cactus Ponto também acompanha a evolução técnica do produto:
+
+- centro de privacidade para o titular, com exportação dos próprios dados e fluxo de solicitações;
+- controles de segurança e isolamento multi-tenant;
+- PostgreSQL como fonte de verdade;
+- Redis como camada de cache e rate limit distribuído, com fallback para manter disponibilidade;
+- domínio por empresa, branding por tenant e suporte a domínio próprio.
+
+O site evita alegar certificação ou conformidade jurídica automática; os exemplos representam funcionalidades técnicas do produto.
