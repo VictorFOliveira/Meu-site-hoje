@@ -58,11 +58,12 @@ A prévia apresenta quatro experiências do SaaS:
 - **Administração / Coordenação** — matrículas, turmas, grade curricular e estrutura acadêmica;
 - **Portal do Aluno** — notas, médias, horários, professores, frequência e acompanhamento formativo;
 - **Diário do Professor** — aula por disciplina, conteúdo ministrado, tarefa, observações e chamada;
-- **Avaliações** — provas, trabalhos, pesos, lançamento de notas e média parcial.
+- **Avaliações** — provas, trabalhos, pesos, lançamento de notas e média parcial;
+- **Financeiro / Responsável** — mensalidades, bolsas, pagamentos, boletins e gateway opcional.
 
 ### Estrutura atual do produto
 
-O Minha Escola evoluiu até a Fase 7 e já possui:
+O Minha Escola evoluiu até a Fase 8 e já possui:
 
 - autenticação e autorização por perfil;
 - contas de aluno vinculadas diretamente à matrícula;
@@ -78,6 +79,11 @@ O Minha Escola evoluiu até a Fase 7 e já possui:
 - fechamento de médias por período;
 - boletim oficial;
 - recuperação;
-- média final e resultado da matrícula.
+- média final e resultado da matrícula;
+- planos e contratos financeiros por matrícula;
+- bolsas e descontos;
+- mensalidades, baixa e inadimplência;
+- Asaas opcional e sistema externo compatível;
+- Portal do Responsável com boletins e pagamentos.
 
 As telas exibidas no portfólio são previews demonstrativos coerentes com a arquitetura e os fluxos implementados no repositório **Minha-escola**.
