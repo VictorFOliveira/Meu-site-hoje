@@ -7,6 +7,7 @@ Site institucional da Cactus Tecnologia e portal de entrada para o ecossistema d
 - **Cactus Gestão** — gestão de academias
 - **Cactus Fight** — gestão de academias de luta
 - **Cactus Ponto** — controle de ponto e jornada
+- **Minha Escola** — SaaS de gestão escolar, acadêmica e administrativa
 
 ## Stack
 React + TypeScript + Vite.
