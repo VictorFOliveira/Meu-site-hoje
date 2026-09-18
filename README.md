@@ -47,3 +47,32 @@ A apresentação do Cactus Ponto também acompanha a evolução técnica do prod
 - domínio por empresa, branding por tenant e suporte a domínio próprio.
 
 O site evita alegar certificação ou conformidade jurídica automática; os exemplos representam funcionalidades técnicas do produto.
+
+
+## Demonstração do Minha Escola
+
+O card **Minha Escola** abre uma apresentação interativa dentro do portfólio, sem obrigar o visitante a sair do site.
+
+A prévia apresenta quatro experiências do SaaS:
+
+- **Administração / Coordenação** — matrículas, turmas, grade curricular e estrutura acadêmica;
+- **Portal do Aluno** — notas, médias, horários, professores, frequência e acompanhamento formativo;
+- **Diário do Professor** — aula por disciplina, conteúdo ministrado, tarefa, observações e chamada;
+- **Avaliações** — provas, trabalhos, pesos, lançamento de notas e média parcial.
+
+### Estrutura atual do produto
+
+O Minha Escola evoluiu até a Fase 6 e já possui:
+
+- autenticação e autorização por perfil;
+- contas de aluno vinculadas diretamente à matrícula;
+- contas de professor vinculadas ao cadastro docente;
+- responsáveis vinculados aos próprios alunos;
+- matrículas e rematrículas com histórico;
+- disciplinas, períodos, grade curricular e quadro de horários;
+- avaliações, notas, pesos e médias parciais;
+- acompanhamento formativo com controle de visibilidade;
+- diário do professor;
+- frequência por disciplina e por aula.
+
+As telas exibidas no portfólio são previews demonstrativos coerentes com a arquitetura e os fluxos implementados no repositório **Minha-escola**.
