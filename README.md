@@ -53,17 +53,20 @@ O site evita alegar certificação ou conformidade jurídica automática; os exe
 
 O card **Minha Escola** abre uma apresentação interativa dentro do portfólio, sem obrigar o visitante a sair do site.
 
-A prévia apresenta quatro experiências do SaaS:
+A prévia apresenta oito experiências integradas do SaaS:
 
 - **Administração / Coordenação** — matrículas, turmas, grade curricular e estrutura acadêmica;
 - **Portal do Aluno** — notas, médias, horários, professores, frequência e acompanhamento formativo;
 - **Diário do Professor** — aula por disciplina, conteúdo ministrado, tarefa, observações e chamada;
 - **Avaliações** — provas, trabalhos, pesos, lançamento de notas e média parcial;
-- **Financeiro / Responsável** — mensalidades, bolsas, pagamentos, boletins e gateway opcional.
+- **Financeiro / Responsável** — mensalidades, bolsas, pagamentos, boletins e gateway opcional;
+- **Comunicação** — avisos, leitura, ciência, anexos e autorizações;
+- **Secretaria / Documentos** — declarações, boletins, históricos e recibos verificáveis;
+- **Superadmin** — tenants, planos, assinaturas, onboarding e auditoria.
 
 ### Estrutura atual do produto
 
-O Minha Escola evoluiu até a Fase 8 e já possui:
+O Minha Escola chegou à versão 1.0 com as 11 fases planejadas implementadas e já possui:
 
 - autenticação e autorização por perfil;
 - contas de aluno vinculadas diretamente à matrícula;
@@ -84,6 +87,20 @@ O Minha Escola evoluiu até a Fase 8 e já possui:
 - bolsas e descontos;
 - mensalidades, baixa e inadimplência;
 - Asaas opcional e sistema externo compatível;
-- Portal do Responsável com boletins e pagamentos.
+- Portal do Responsável com boletins e pagamentos;
+- comunicação por público e autorizações;
+- alertas acadêmicos e financeiros;
+- documentos com snapshot e código de verificação;
+- onboarding de escola;
+- planos e assinaturas SaaS;
+- Superadmin separado;
+- limites por plano;
+- auditoria e exportação de dados;
+- job diário e health/readiness da aplicação.
 
 As telas exibidas no portfólio são previews demonstrativos coerentes com a arquitetura e os fluxos implementados no repositório **Minha-escola**.
+
+
+### Estado de implantação
+
+A base funcional das 11 fases está no repositório **Minha-escola**. Uma publicação comercial real ainda depende da infraestrutura escolhida para produção, como banco PostgreSQL gerenciado, domínio, TLS, backups, observabilidade e credenciais dos provedores opcionais.
