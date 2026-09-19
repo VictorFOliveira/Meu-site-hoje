@@ -66,7 +66,7 @@ A prévia apresenta oito experiências integradas do SaaS:
 
 ### Estrutura atual do produto
 
-O Minha Escola chegou à versão 1.0 com as 11 fases planejadas implementadas e já possui:
+O Minha Escola está em **release candidate para homologação final**, com as 11 fases planejadas implementadas. O dashboard autenticado já usa dados reais por tenant e a suíte técnica passou por regressão destrutiva concorrente. O produto já possui:
 
 - autenticação e autorização por perfil;
 - contas de aluno vinculadas diretamente à matrícula;
@@ -100,7 +100,24 @@ O Minha Escola chegou à versão 1.0 com as 11 fases planejadas implementadas e 
 
 As telas exibidas no portfólio são previews demonstrativos coerentes com a arquitetura e os fluxos implementados no repositório **Minha-escola**.
 
+### Validação técnica atual
+
+Em 18/09/2026, o passe final de regressão destrutiva do Minha Escola foi concluído com:
+
+- 5.000 alunos;
+- 3.000 cobranças;
+- 44 usuários concorrentes;
+- 2.000 requisições sustentadas com concorrência 100;
+- 1.000 requisições em rajada com concorrência 250;
+- dashboard SSR, Portal do Aluno e Portal do Responsável no mix;
+- 3.000/3.000 respostas bem-sucedidas;
+- 0 falhas e 0% de erro;
+- readiness e migration status verdes após a carga;
+- CI, CodeQL, dependency audit e validações de produção verdes.
+
+O resultado é um baseline de CI e não substitui a homologação final na VPS/infraestrutura contratada.
+
 
 ### Estado de implantação
 
-A base funcional das 11 fases está no repositório **Minha-escola**. Uma publicação comercial real ainda depende da infraestrutura escolhida para produção, como banco PostgreSQL gerenciado, domínio, TLS, backups, observabilidade e credenciais dos provedores opcionais.
+A base funcional e os gates automáticos estão fechados no repositório **Minha-escola**. O estado atual é **pronto para homologação final**. Uma publicação comercial real ainda depende da infraestrutura escolhida para produção, como VPS/containers, PostgreSQL, domínio, TLS, storage/scanner, backups, observabilidade, secrets e credenciais dos provedores opcionais.
